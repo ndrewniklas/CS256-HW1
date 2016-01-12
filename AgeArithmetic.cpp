@@ -1,6 +1,6 @@
 //Andrew Niklas
 //Homework 1
-//Completed 
+//Completed 1-11-2016
 
 #include <iostream>
 #include <cmath>
