@@ -24,11 +24,18 @@ int main(){
 	std::cout << "ageHalved: " << ageHalved << std::endl;
 	std::cout << std::endl;
 
+	std::cout << "Multiply age by ageHalved: ";
 	std::cout << (age * ageHalved) << std::endl;
+	std::cout << "Divide ageSquared by ageHalved: ";
 	std::cout << (ageSquared / ageHalved) << std::endl;
+	std::cout << "Take the remainder of ageSquared divided by ageHalved: ";
 	std::cout << (ageSquared % ageHalved) << std::endl;
+	std::cout << "Subtract ageHalved from age: ";
 	std::cout << (age - ageHalved) << std::endl;
+	std::cout << "Divide age by ageSquared: ";
 	std::cout << (age / ageSquared) << std::endl;
+	std::cout << "Add ageSquared to age: ";
 	std::cout << (ageSquared + age) << std::endl;
+	std::cout << "Mean of age, ageSquared, and ageHalved: ";
 	std::cout << ((age + ageSquared + ageHalved) / 3.0F) << std::endl;
 }
