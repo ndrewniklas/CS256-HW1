@@ -38,4 +38,5 @@ int main(){
 	std::cout << (ageSquared + age) << std::endl;
 	std::cout << "Mean of age, ageSquared, and ageHalved: ";
 	std::cout << ((age + ageSquared + ageHalved) / 3.0F) << std::endl;
+	system("pause");
 }
